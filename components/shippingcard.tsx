@@ -27,7 +27,7 @@ export default function ShippingForm() {
 
   return (
     <>
-      <Card className='w-[650px]'>
+      <Card className='w-full max-w-4xl mx-auto'>
         <CardHeader>
           <CardTitle className="text-lg font-black">
             K7N2 | MATTE BLACK ALL METAL WALLET
@@ -35,7 +35,7 @@ export default function ShippingForm() {
         </CardHeader>
         <CardContent>
           <h2 className='font-bold text-sm'>Quantity</h2>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div className="flex items-center gap-2">
             <Button  variant={"outline"} onClick={decreaseQty}><MinusCircledIcon/></Button>
             <span className='font-bold text-sm'>{quantity}</span>
             <Button  variant={"outline"} onClick={increaseQty}><PlusCircledIcon/></Button>
@@ -43,74 +43,35 @@ export default function ShippingForm() {
           </div>
           <form className="space-y-4 mt-4">
             <h2 className='font-bold text-sm'> Contact Information</h2>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="grid gap-2">
-                <Input className='font-semibold' id="email" type="email" placeholder="Email Address"/>
-              </div>
-              <div>
-                <Input className='font-semibold' id="phone" type="tel" placeholder="Phone Number"/>
-              </div>
+            <div className="flex flex-wrap gap-4">
+              <Input className='font-semibold w-full sm:w-auto flex-1' id="email" type="email" placeholder="Email Address"/>
+              <Input className='font-semibold w-full sm:w-auto flex-1' id="phone" type="tel" placeholder="Phone Number"/>
             </div>
 
             <h2 className='font-bold text-sm'> Shipping Information</h2>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="grid gap-2">
-                <Input className='font-semibold' id="firstName" placeholder="First Name"/>
-                <Input className='font-semibold' id="lastName" placeholder="Last Name"/>
-              </div>
-              <div>
-                <Input className='font-semibold' id="middleName" placeholder="Middle Name (Optional)"/>
-              </div>
-            </div>
-            
-            <Input className='font-semibold' id="address" placeholder="Address"/>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="grid gap-2">
-              <Input className='font-semibold' id="city" placeholder="City"/>
-                <Input className='font-semibold' id="state/province" placeholder="State/Province"/>
-                <Input className='font-semibold' id="zipCode" placeholder="Zip Code"/>
-              </div>
-              <div>
-              <Select>
-    <SelectTrigger className="font-semibold">
-        <SelectValue placeholder="Choose your country" />
-    </SelectTrigger>
-    <SelectContent>
-        <SelectGroup>
-            <SelectLabel>Countries</SelectLabel>
-            <SelectItem className="font-medium" value="Australia">Australia</SelectItem>
-            <SelectItem className="font-medium" value="Austria">Austria</SelectItem>
-            <SelectItem className="font-medium" value="Belgium">Belgium</SelectItem>
-            <SelectItem className="font-medium" value="Canada">Canada</SelectItem>
-            <SelectItem className="font-medium" value="Denmark">Denmark</SelectItem>
-            <SelectItem className="font-medium" value="France">France</SelectItem>
-            <SelectItem className="font-medium" value="Germany">Germany</SelectItem>
-            <SelectItem className="font-medium" value="Greece">Greece</SelectItem>
-            <SelectItem className="font-medium" value="Hong Kong">Hong Kong</SelectItem>
-            <SelectItem className="font-medium" value="Ireland">Ireland</SelectItem>
-            <SelectItem className="font-medium" value="Italy">Italy</SelectItem>
-            <SelectItem className="font-medium" value="Japan">Japan</SelectItem>
-            <SelectItem className="font-medium" value="Luxembourg">Luxembourg</SelectItem>
-            <SelectItem className="font-medium" value="Mexico">Mexico</SelectItem>
-            <SelectItem className="font-medium" value="the Netherlands">The Netherlands</SelectItem>
-            <SelectItem className="font-medium" value="New Zealand">New Zealand</SelectItem>
-            <SelectItem className="font-medium" value="Norway">Norway</SelectItem>
-            <SelectItem className="font-medium" value="Poland">Poland</SelectItem>
-            <SelectItem className="font-medium" value="Singapore">Singapore</SelectItem>
-            <SelectItem className="font-medium" value="Slovenia">Slovenia</SelectItem>
-            <SelectItem className="font-medium" value="Spain">Spain</SelectItem>
-            <SelectItem className="font-medium" value="Sweden">Sweden</SelectItem>
-            <SelectItem className="font-medium" value="Switzerland">Switzerland</SelectItem>
-            <SelectItem className="font-medium" value="the United Kingdom">The United Kingdom</SelectItem>
-            <SelectItem className="font-medium" value="the United States">The United States</SelectItem>
-        </SelectGroup>
-    </SelectContent>
-</Select>
-
-              </div>
+            <div className="flex flex-wrap gap-4">
+              <Input className='font-semibold w-full md:w-1/3' id="firstName" placeholder="First Name"/>
+              <Input className='font-semibold w-full md:w-1/3' id="lastName" placeholder="Last Name"/>
+              <Input className='font-semibold w-full md:w-1/3' id="middleName" placeholder="Middle Name (Optional)"/>
+              <Input className='font-semibold w-full' id="address" placeholder="Address"/>
+              <Input className='font-semibold w-full md:w-1/3' id="city" placeholder="City"/>
+              <Input className='font-semibold w-full md:w-1/3' id="state/province" placeholder="State/Province"/>
+              <Input className='font-semibold w-full md:w-1/3' id="zipCode" placeholder="Zip Code"/>
             </div>
 
-            <Button className='font-bold' type="submit">Proceed to Payment</Button>
+            <Select>
+              <SelectTrigger className="w-full font-semibold">
+                <SelectValue placeholder="Choose your country" />
+              </SelectTrigger>
+              <SelectContent>
+                  <SelectGroup>
+                      <SelectLabel>Countries</SelectLabel>
+                      {/* List of countries */}
+                  </SelectGroup>
+              </SelectContent>
+            </Select>
+
+            <Button className='w-full mt-4 font-bold' type="submit">Proceed to Payment</Button>
           </form>
         </CardContent>
       </Card>

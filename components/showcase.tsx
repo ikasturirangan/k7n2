@@ -7,29 +7,21 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 export default function Showcase() {
   return (
     <>
-       <Carousel className="w-[700px]">
-      <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
+      
+            <div>
+             
                 <Image 
-              src="/image.png"
+                
+              src="/image4.webp"
               layout="responsive"
               width={300}
               height={300}
               alt="K7N2 Full Metal Wallet"
              />
-                </CardContent>
-              </Card>
+                           
+                
             </div>
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+         
     </>
   );
 }
