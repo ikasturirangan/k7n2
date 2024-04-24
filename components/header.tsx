@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between">
+      <header className="top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between">
         <h2 className="font-black">K7N2</h2>
         <div className="flex items-center gap-4">
           <ModeToggle/>

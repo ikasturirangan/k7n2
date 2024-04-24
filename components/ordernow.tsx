@@ -11,13 +11,13 @@ import {
 import { Button } from "@/components/ui/button";
 
 export const OrderNow = () => (
-  <div className="w-full py-20 lg:py-40">
+  <div className="w-full">
     <div className="container mx-auto">
       <div className="flex text-center justify-center items-center gap-4 flex-col">
         <Badge className="font-bold">Starting $ 59.99</Badge>
         <div className="flex gap-2 flex-col">
-          <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-center font-regular">
-            Join the club!
+          <h2 className="text-3xl md:text-3xl tracking-tighter max-w-xl text-center font-semibold">
+          Join the club !
           </h2>
           <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-center">
             Managing a small business today is already tough.
