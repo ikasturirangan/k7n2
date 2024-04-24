@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useState } from 'react';
 import { ModeToggle } from "./mode-toggle";
 import { Button } from "./ui/button";
@@ -14,11 +15,11 @@ export default function Header() {
 
   return (
     <>
-      <header className="top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between">
+      <header className="sticky top-0 z-50   top-0 flex h-16 items-center gap-4 border-b  bg-background  px-4 md:px-6 justify-between">
         <h2 className="font-black">K7N2</h2>
         <div className="flex items-center gap-4">
           <ModeToggle/>
-          <Link href={isCheckoutPage ? "/" : "/checkout"} passHref>
+          <Link href={"https://buy.stripe.com/test_7sI5nve8QePhewEbII"}>
             <Button className="font-bold" variant="outline">
               {isCheckoutPage ? 'Back' : 'Order Now'}
             </Button>

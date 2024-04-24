@@ -1,4 +1,5 @@
 import { SiteFooter } from "@/components/footer";
+import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { ArrowLeftIcon } from "@radix-ui/react-icons";
@@ -13,24 +14,13 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-     <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
-        
-       
-        <h2 className="font-black">K7N2</h2>
-             
-            
-          <div className="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
-          <Link href="/" passHref>
-            <Button className="font-bold" variant={"outline"}><ArrowLeftIcon className="mr-3 h-4 w-4"/> Back</Button>
-            </Link>
-            
-          </div>
-        </header>
+    <Header/>
     <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8"> 
       <div className="max-w-[600px] m-auto my-25">
         <h1 className="scroll-m-20 text-2xl tracking-tight lg:text-3xl font-bold">
           Privacy Policy
         </h1>
+        
 
         <div className="text-component line-height-lg v-space-md">
           <p className="leading-7 mt-8 font-semibold text-gray-700">Last updated: October 26, 2023</p>

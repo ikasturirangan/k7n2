@@ -41,7 +41,7 @@ export const Feature = () => (
             </CardHeader>
             <CardFooter> 
             <div className="flex flex-col">
-              <h3 className="text-lg tracking-tight font-semibold">RFID Blocking</h3>
+              <h3 className="text-lg tracking-tight font-bold">RFID Blocking</h3>
               <p className="text-muted-foreground text-sm font-semibold text-base">
               Protect your personal information with built-in RFID blocking technology.
               </p>
@@ -54,7 +54,7 @@ export const Feature = () => (
             </CardHeader>
             <CardFooter> 
             <div className="flex flex-col">
-            <h3 className="text-lg tracking-tight font-semibold">RFID Blocking</h3>
+            <h3 className="text-lg tracking-tight font-bold">RFID Blocking</h3>
               <p className="text-muted-foreground text-sm font-semibold text-base">
               Protect your personal information with built-in RFID blocking technology.
               </p>
@@ -68,7 +68,7 @@ export const Feature = () => (
             </CardHeader>
             <CardFooter> 
             <div className="flex flex-col">
-            <h3 className="text-lg tracking-tight font-semibold">RFID Blocking</h3>
+            <h3 className="text-lg tracking-tight font-bold">RFID Blocking</h3>
               <p className="text-muted-foreground text-sm font-semibold text-base">
               Protect your personal information with built-in RFID blocking technology.
               </p>
