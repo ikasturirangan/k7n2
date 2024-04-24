@@ -30,22 +30,7 @@ export default function CookieConsent({ demo = false, onAcceptCallback = () => {
         onDeclineCallback();
     };
 
-    useEffect(() => {
-        try {
-            setIsOpen(true);
-            if (document.cookie.includes("cookieConsent=true")) {
-                if (!demo) {
-                    setIsOpen(false);
-                    setTimeout(() => {
-                        setHide(true);
-                    }, 700);
-                }
-            }
-        }
-        catch (e) {
-            // console.log("Error: ", e);
-        }
-    }, []);
+    
 
     return (
         <div className={cn("fixed z-[200] bottom-0 left-0 right-0 sm:left-4 sm:bottom-4 w-full sm:max-w-md duration-700", !isOpen ? "transition-[opacity,transform] translate-y-8 opacity-0" : "transition-[opacity,transform] translate-y-0 opacity-100", hide && "hidden")}>
@@ -60,7 +45,7 @@ export default function CookieConsent({ demo = false, onAcceptCallback = () => {
                             We use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our cookie policy.
                             <br />
                             <br />
-                            <span className="text-xs">By clicking "<span className="font-medium opacity-80">Accept</span>", you agree to our use of cookies.</span>
+                            <span className="text-xs">By clicking <span className="font-medium opacity-80">Accept</span>, you agree to our use of cookies.</span>
                             <br />
                             <a href="#" className="text-xs underline">Learn more.</a>
                         </p>

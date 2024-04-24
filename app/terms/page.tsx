@@ -36,8 +36,8 @@ export default function Page() {
           <p className="leading-7 mt-8 font-semibold text-gray-700">Last updated: October 26, 2023</p>
 
           <p className="leading-7 mt-8">
-            Midday Labs AB ("us", "we", or "our") operates the Midday
-            application (hereinafter referred to as the "Service").
+            Midday Labs AB (us, we, or our) operates the Midday
+            application (hereinafter referred to as the Service).
           </p>
 
           <p className="leading-7 mt-8">
@@ -144,7 +144,7 @@ export default function Page() {
           <p className="leading-7 mt-8">
             While using our Service, we may ask you to provide us with certain
             personally identifiable information that can be used to contact or
-            identify you ("Personal Data"). Personally identifiable information
+            identify you (Personal Data). Personally identifiable information
             may include, but is not limited to:
           </p>
 
@@ -169,7 +169,7 @@ export default function Page() {
             the type of mobile device you use, your mobile device unique ID, the
             IP address of your mobile device, your mobile operating system, the
             type of mobile Internet browser you use, unique device identifiers
-            and other diagnostic data ("Usage Data").
+            and other diagnostic data (Usage Data).
           </p>
 
           <h4>Tracking & Cookies Data</h4>
@@ -345,11 +345,11 @@ export default function Page() {
           </p>
 
           <h2>
-            Our Policy on "Do Not Track" Signals under the California Online
+            Our Policy on Do Not Track Signals under the California Online
             Protection Act (CalOPPA)
           </h2>
           <p className="leading-7 mt-8">
-            We do not support Do Not Track ("DNT"). Do Not Track is a preference
+            We do not support Do Not Track (DNT). Do Not Track is a preference
             you can set in your web browser to inform websites that you do not
             want to be tracked.
           </p>
@@ -440,7 +440,7 @@ export default function Page() {
           <h2>Service Providers</h2>
           <p className="leading-7 mt-8">
             We may employ third party companies and individuals to facilitate
-            our Service ("Service Providers"), provide the Service on our
+            our Service (Service Providers), provide the Service on our
             behalf, perform Service-related services or assist us in analysing
             how our Service is used.
           </p>
@@ -477,7 +477,7 @@ export default function Page() {
                 </a>
               </p>
               <p className="leading-7 mt-8">
-                We also encourage you to review the Google's policy for
+                We also encourage you to review the Googles policy for
                 safeguarding your data:{" "}
                 <a
                   target="_blank"
@@ -558,7 +558,7 @@ export default function Page() {
           <p className="leading-7 mt-8">
             Our Service may contain links to other sites that are not operated
             by us. If you click a third party link, you will be directed to that
-            third party's site. We strongly advise you to review the Privacy
+            third partys site. We strongly advise you to review the Privacy
             Policy of every site you visit.
           </p>
           <p className="leading-7 mt-8">
@@ -567,10 +567,10 @@ export default function Page() {
             services.
           </p>
 
-          <h2>Children's Privacy</h2>
+          <h2>Childrens Privacy</h2>
           <p className="leading-7 mt-8">
             Our Service does not address anyone under the age of 18
-            ("Children").
+            (Children).
           </p>
           <p className="leading-7 mt-8">
             We do not knowingly collect personally identifiable information from
@@ -589,7 +589,7 @@ export default function Page() {
           <p className="leading-7 mt-8">
             We will let you know via email and/or a prominent notice on our
             Service, prior to the change becoming effective and update the
-            "effective date" at the top of this Privacy Policy.
+            effective date at the top of this Privacy Policy.
           </p>
           <p className="leading-7 mt-8">
             You are advised to review this Privacy Policy periodically for any
