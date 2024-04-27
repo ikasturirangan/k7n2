@@ -1,6 +1,6 @@
 
 import { Badge } from "@/components/ui/badge";
-import { Card, CardFooter, CardHeader } from "./ui/card";
+import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
 import Image from "next/image";
 export const Feature = () => (
   <div className="w-full py-10 lg:py-10">
@@ -19,10 +19,17 @@ export const Feature = () => (
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="h-full lg:col-span-2  aspect-square lg:aspect-auto flex justify-between flex-col"> 
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+            <Card > 
             <CardHeader> 
-           
+            <Image 
+                className="rounded-sm"
+                src="/Image.webp"
+                layout="responsive"
+                width={300}
+                height={300}
+                alt="K7N2 Full Metal Wallet"
+              />
             </CardHeader>
             <CardFooter> 
             <div className="flex flex-col">
@@ -35,42 +42,68 @@ export const Feature = () => (
             </CardFooter>
             
             </Card>
-        <Card className=" aspect-square flex justify-between flex-col"> 
+        <Card> 
             <CardHeader> 
-            
+            <Image 
+                className="rounded-sm"
+                src="/Mage1.png"
+               layout="responsive"
+                width={300}
+                height={300}
+                alt="K7N2 Full Metal Wallet"
+              />
             </CardHeader>
             <CardFooter> 
             <div className="flex flex-col">
-              <h3 className="text-lg tracking-tight font-bold">RFID Blocking</h3>
+              <h3 className="text-lg tracking-tight font-bold">Premium Material</h3>
               <p className="text-muted-foreground text-sm font-semibold text-base">
-              Protect your personal information with built-in RFID blocking technology.
+              Crafted from high-quality metals and fabrics, our wallets are not only stylish but also durable and environmentally friendly.
               </p>
             </div>
             </CardFooter>
         </Card>
-        <Card className=" aspect-square  flex justify-between flex-col"> 
+        <Card > 
             <CardHeader> 
-            
+            <Image 
+                className="rounded-sm"
+                layout="responsive"
+                src="/22.webp"
+                width={300}
+                height={300}
+                alt="K7N2 Full Metal Wallet"
+              />
             </CardHeader>
             <CardFooter> 
             <div className="flex flex-col">
-            <h3 className="text-lg tracking-tight font-bold">RFID Blocking</h3>
+            <h3 className="text-lg tracking-tight font-bold">Sleek Design</h3>
               <p className="text-muted-foreground text-sm font-semibold text-base">
-              Protect your personal information with built-in RFID blocking technology.
+              Embrace minimalism with a sleek, thin profile that fits seamlessly into any pocket or purse without the bulk.
               </p>
             </div>
             </CardFooter>
         </Card>
 
-        <Card className=" h-full lg:col-span-2  aspect-square lg:aspect-auto flex justify-between flex-col"> 
+        <Card > 
             <CardHeader> 
-            
+            <Image 
+                className="rounded-sm"
+                src="/23.webp"
+                layout="responsive"
+                width={300}
+                height={300}
+                alt="K7N2 Full Metal Wallet"
+              />
             </CardHeader>
+            <CardContent>
+              
+            </CardContent>
             <CardFooter> 
             <div className="flex flex-col">
-            <h3 className="text-lg tracking-tight font-bold">RFID Blocking</h3>
+            <h3 className="text-lg tracking-tight font-bold">Built to Last</h3>
               <p className="text-muted-foreground text-sm font-semibold text-base">
-              Protect your personal information with built-in RFID blocking technology.
+              Crafted for resilience, the K7N2 wallet combines high-quality materials and superior craftsmanship to ensure durability and elegance that withstand the test of time.
+
+
               </p>
             </div>
             </CardFooter>

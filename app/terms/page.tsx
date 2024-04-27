@@ -1,11 +1,10 @@
 import { SiteFooter } from "@/components/footer";
 import Header from "@/components/header";
-import { Button } from "@/components/ui/button";
+
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeftIcon } from "@radix-ui/react-icons";
-import { ShoppingBag } from "lucide-react";
+
 import type { Metadata } from "next";
-import Link from "next/link";
+
 
 export const metadata: Metadata = {
   title: "Policy",

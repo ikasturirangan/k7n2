@@ -12,7 +12,7 @@ export const OrderNow = () => (
   <div className="w-full">
     <div className="container mx-auto">
       <div className="flex text-center justify-center items-center gap-4 flex-col">
-        <Badge className="font-bold">Starting $ 59.99</Badge>
+        <Badge className="font-bold">Starting $ 39.99</Badge>
         <div className="flex gap-2 flex-col">
           <h2 className="text-3xl md:text-3xl tracking-tighter max-w-xl text-center font-bold">
             Join the club !
@@ -24,7 +24,7 @@ export const OrderNow = () => (
             <CardHeader>
               <Image 
                 className="rounded-sm"
-                src="/image4.webp"
+                src="/boximage.webp"
                 layout="responsive"
                 width={300}
                 height={300}
@@ -34,7 +34,7 @@ export const OrderNow = () => (
             <CardFooter className="flex justify-center"> {/* Center the content */}
               <Link href="https://buy.stripe.com/test_7sI5nve8QePhewEbII">
                 <Button size={"lg"} className="font-bold w-full">
-                  Order Now | $59.99
+                  Order Now | $39.99
                 </Button>
               </Link>
             </CardFooter>
