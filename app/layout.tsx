@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "K7N2 Official Website",
-  description: "K7N2 is a global designer and manufacturer of premium everyday carry and fashion accesories",
+  title: "thematteblackcompany",
+  description: "thematteblackcompany is a global designer and manufacturer of premium everyday carry, fashion accesories and desk essentials",
 };
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ import { MinusCircledIcon, PlusCircledIcon } from '@radix-ui/react-icons';
 
 export default function ShippingForm() {
   const [product, setProduct] = useState({
-    name: "K7N2 All metal wallet",
+    name: "thematteblackcompany All metal wallet",
     price: 59.99,
     description: "A brief yet informative description of the product, highlighting its main features and benefits.",
     imageUrl: "/path/to/product-image.jpg",
@@ -30,7 +30,7 @@ export default function ShippingForm() {
       <Card className='w-full max-w-4xl mx-auto'>
         <CardHeader>
           <CardTitle className="text-lg font-black">
-            K7N2 | MATTE BLACK ALL METAL WALLET
+            thematteblackcompany | MATTE BLACK ALL METAL WALLET
           </CardTitle>
         </CardHeader>
         <CardContent>

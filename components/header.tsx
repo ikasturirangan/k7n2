@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <>
       <header className="sticky top-0 z-50   top-0 flex h-16 items-center gap-4 border-b  bg-background  px-4 md:px-6 justify-between">
-        <h2 className="font-black">K7N2</h2>
+        <h2 className="font-bold">the matte black company</h2>
         <div className="flex items-center gap-4">
           <ModeToggle/>
           <Link href={"https://buy.stripe.com/test_7sI5nve8QePhewEbII"}>

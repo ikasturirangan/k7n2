@@ -69,7 +69,7 @@ const CheckoutForm: React.FC = () => {
   return (
     
       <><CardHeader>
-      <CardTitle className='font-bold'>K7N2 | Metal RFID Blocking Wallet</CardTitle>
+      <CardTitle className='font-bold'>the matte black company | Metal RFID Blocking Wallet</CardTitle>
       <CardDescription className='font-semibold'>A brief yet informative description of the product, highlighting its main features and benefits.</CardDescription>
     </CardHeader><CardContent>
         <form onSubmit={formik.handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">

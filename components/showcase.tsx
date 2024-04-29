@@ -16,7 +16,7 @@ export default function Showcase() {
               layout="responsive"
               width={300}
               height={300}
-              alt="K7N2 Full Metal Wallet"
+              alt="thematteblackcompany Full Metal Wallet"
              />
                            
                 

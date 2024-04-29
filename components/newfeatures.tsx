@@ -28,7 +28,7 @@ export const Feature = () => (
                 layout="responsive"
                 width={300}
                 height={300}
-                alt="K7N2 Full Metal Wallet"
+                alt="thematteblackcompany Full Metal Wallet"
               />
             </CardHeader>
             <CardFooter> 
@@ -46,11 +46,11 @@ export const Feature = () => (
             <CardHeader> 
             <Image 
                 className="rounded-sm"
-                src="/Mage1.png"
+                src="/more.jpg"
                layout="responsive"
                 width={300}
                 height={300}
-                alt="K7N2 Full Metal Wallet"
+                alt="thematteblackcompany Full Metal Wallet"
               />
             </CardHeader>
             <CardFooter> 
@@ -70,7 +70,7 @@ export const Feature = () => (
                 src="/22.webp"
                 width={300}
                 height={300}
-                alt="K7N2 Full Metal Wallet"
+                alt="thematteblackcompany Full Metal Wallet"
               />
             </CardHeader>
             <CardFooter> 
@@ -91,7 +91,7 @@ export const Feature = () => (
                 layout="responsive"
                 width={300}
                 height={300}
-                alt="K7N2 Full Metal Wallet"
+                alt="thematteblackcompany Full Metal Wallet"
               />
             </CardHeader>
             <CardContent>
@@ -101,7 +101,7 @@ export const Feature = () => (
             <div className="flex flex-col">
             <h3 className="text-lg tracking-tight font-bold">Built to Last</h3>
               <p className="text-muted-foreground text-sm font-semibold text-base">
-              Crafted for resilience, the K7N2 wallet combines high-quality materials and superior craftsmanship to ensure durability and elegance that withstand the test of time.
+              Crafted for resilience, the thematteblackcompany wallet combines high-quality materials and superior craftsmanship to ensure durability and elegance that withstand the test of time.
 
 
               </p>

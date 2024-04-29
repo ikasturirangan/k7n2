@@ -8,8 +8,8 @@ export const SiteFooter = () => {
         <div className="grid lg:grid-cols-3 gap-10 items-center justify-center text-center">
           {/* First Column for Brand Name and Slogan */}
           <div className="flex flex-col gap-2 items-center">
-            <h2 className="text-md md:text-md tracking-tighter max-w-md font-black">
-              K7N2
+            <h2 className="text-md md:text-md tracking-tighter max-w-md font-bold">
+              the matte black company
             </h2>
             <p className="text-sm max-w-lg leading-relaxed tracking-tight font-bold text-gray-500">
               Premium Everyday Carry Designed on Earth.
