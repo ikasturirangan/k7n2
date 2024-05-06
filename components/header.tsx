@@ -19,7 +19,7 @@ export default function Header() {
         <h2 className="font-bold">the matte black company</h2>
         <div className="flex items-center gap-4">
           <ModeToggle/>
-          <Link href={"https://buy.stripe.com/test_7sI5nve8QePhewEbII"}>
+          <Link href={"https://buy.stripe.com/9AQ15Z83aaYFctG5kk"}>
             <Button className="font-bold" variant="outline">
               {isCheckoutPage ? 'Back' : 'Order Now'}
             </Button>
