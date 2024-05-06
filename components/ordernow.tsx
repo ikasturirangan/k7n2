@@ -32,7 +32,7 @@ export const OrderNow = () => (
               />
             </CardHeader>
             <CardFooter className="flex justify-center"> {/* Center the content */}
-              <Link href="https://buy.stripe.com/test_7sI5nve8QePhewEbII">
+              <Link href="https://buy.stripe.com/9AQ15Z83aaYFctG5kk">
                 <Button size={"lg"} className="font-bold w-full">
                   Order Now | $39.99
                 </Button>
