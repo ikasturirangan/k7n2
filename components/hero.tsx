@@ -26,7 +26,7 @@ export const Hero = () => (
           </h1>
         </div>
         <div className="flex flex-row gap-3">
-          <Link href="https://buy.stripe.com/test_7sI5nve8QePhewEbII"> 
+          <Link href="https://buy.stripe.com/9AQ15Z83aaYFctG5kk"> 
           <Button size="lg" className="gap-2 font-bold bg-black text-white">
             Order Now
           </Button>
